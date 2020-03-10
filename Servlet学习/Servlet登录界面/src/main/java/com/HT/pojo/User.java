@@ -1,4 +1,4 @@
-package com.HT.com.HT.pojo;
+package com.HT.pojo;
 
 public class User {
     private String uname;
