@@ -1,5 +1,7 @@
 package com.HT.Service;
 
-public interface LoginService {
+import com.HT.pojo.User;
 
+public interface LoginService {
+    User checkLoginService(String name, String pwd) throws ClassNotFoundException;
 }

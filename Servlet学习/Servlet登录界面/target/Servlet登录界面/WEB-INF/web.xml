@@ -6,7 +6,7 @@
 
   <servlet>
     <servlet-name>login</servlet-name>
-    <servlet-class>com.HT.login</servlet-class>
+    <servlet-class>com.HT.Servlet.login</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>login</servlet-name>
@@ -15,7 +15,7 @@
 
   <servlet>
     <servlet-name>pageservlet</servlet-name>
-    <servlet-class>com.HT.pageservlet</servlet-class>
+    <servlet-class>com.HT.Servlet.pageservlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>pageservlet</servlet-name>

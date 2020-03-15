@@ -1,6 +1,7 @@
 package com.HT.pojo;
 
 public class User {
+    private int uid;
     private String uname;
     private String password;
 
@@ -20,7 +21,16 @@ public class User {
         this.password = password;
     }
 
-    public User(String uname, String password) {
+    public int getUid() {
+        return uid;
+    }
+
+    public void setUid(int uid) {
+        this.uid = uid;
+    }
+
+    public User(int uid, String uname, String password) {
+        this.uid = uid;
         this.uname = uname;
         this.password = password;
     }

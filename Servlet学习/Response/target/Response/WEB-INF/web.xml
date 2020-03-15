@@ -6,7 +6,7 @@
 
   <servlet>
     <servlet-name>resp</servlet-name>
-    <servlet-class>com.HT.Response</servlet-class>
+    <servlet-class>com.HT.Servlet.Response</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>resp</servlet-name>

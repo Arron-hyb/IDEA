@@ -6,7 +6,7 @@
 
   <servlet>
     <servlet-name>req</servlet-name>
-    <servlet-class>com.HT.Learn01.Request</servlet-class>
+    <servlet-class>com.HT.Servlet.Learn01.Request</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>req</servlet-name>
